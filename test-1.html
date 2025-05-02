@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Coding Projects</title>
+    <link rel="icon" href="logo - Copy.png" type="image/png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(to right, #2c3e50, #34495e);
+            color: white;
+            padding: 2em 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeInDown 1s ease-out;
+        }
+        header .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        header div {
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0.5em 0 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 2em 0;
+        }
+        .project {
+            background: white;
+            padding: 1.5em;
+            margin-bottom: 2em;
+            border-radius: 10px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeInUp 1s ease forwards;
+        }
+        .project:hover {
+            transform: scale(1.03);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+        .project h2 {
+            margin-top: 0;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 0.5em;
+            text-decoration: none;
+            color: white;
+            background-color: #2980b9;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .project a:hover {
+            background-color: #1c5980;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            margin-top: 2em;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="My Logo" class="logo">
+        <div>
+            <h1>My Coding Projects</h1>
+            <p>Explore the creative coding projects I've developed using Python, HTML, and CSS!</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="project">
+            <h2>Python Calculator</h2>
+            <p>A visually appealing calculator built using Python's Tkinter GUI library with responsive buttons.</p>
+            <a href="https://github.com/suyash879/My-projects/tree/main">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h2>Personal Portfolio Website</h2>
+            <p>A stylish, mobile-responsive website built with HTML and CSS to showcase my skills and projects.</p>
+            <a href="https://2010suyashjadhav.wixsite.com/jscode-1" target="_blank">Visit Site</a>
+        </div>
+
+        <div class="project">
+            <h2>Game: target_game</h2>
+            <p>A fun Python Tkinter game where you click a moving red target to score points within 30 seconds.</p>
+            <a href="https://github.com/suyash879/My-projects/tree/main" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Book word</h2>
+            <p>A application full of genres of books containing mesmerising authors and characters with interactive and easy to use UI
+                made with thunkable without code using scratch blocks. google drive contains app screenshot and
+            </p>
+            <a href="https://drive.google.com/drive/folders/1S88_wFyfaydJPyf-YfX1e8DPo_UAg4_h" target="_blank">View on Google drive</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 JScode. Coded with ❤ and caffeine.</p>
+    </footer>
+</body>
+</html>
